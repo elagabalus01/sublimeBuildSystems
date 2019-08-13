@@ -1,0 +1,5 @@
+{
+    "shell":"true",
+    "cmd": ["python","-B","-u","$file"],
+    "env":{"PYTHONIOENCODING":"UTF-8"}
+}

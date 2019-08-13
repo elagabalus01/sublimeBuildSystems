@@ -1,0 +1,9 @@
+{
+    "shell_cmd":"matlab -batch \"$file_base_name\"",
+    "variants":[
+        {
+            "name":"Interactive command windows",
+            "shell_cmd":"matlab -nosplash -nodesktop -r \"run('$file_base_name')\""
+        }
+    ]
+}

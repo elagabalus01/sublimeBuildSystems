@@ -1,0 +1,3 @@
+{
+    "shell_cmd": "javac -cp \\${CLASSPATH};.\\lib\\*;. -d bin \"$file\" && java -cp bin;.\\lib\\*;$CLASSPATH \"$file_base_name\""
+}
